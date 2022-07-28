@@ -1,9 +1,12 @@
-package htpp_client;
-
-import org.springframework.web.client.RestTemplate;
-
-public class Main {
-    public static void main(String[] args) {
+//package htpp_client;
+//
+//import org.springframework.web.client.RestTemplate;
+//
+//import java.net.http.HttpClient;
+//import java.time.Duration;
+//
+//public class Main {
+//    public static void main(String[] args) {
 //        HttpClient client = HttpClient.newBuilder()
 //                .version(HttpClient.Version.HTTP_2)
 //                .connectTimeout(Duration.ofSeconds(10))
@@ -26,21 +29,21 @@ public class Main {
 //        } catch (IOException | InterruptedException e) {
 //            e.printStackTrace();
 //        }
-
-//        kong.unirest.HttpResponse<String> rp = Unirest.get("https://provinces.open-api.vn/api/?depth=2")
-//          .header("User-Agent", "Java 11 HttpClient Bot")
-//          .asString();
-//        System.out.println(jsonViewer(rp.getBody()));
-
-        RestTemplate re = new RestTemplate();
-        String map = new String();
-        map = re.getForObject("https://provinces.open-api.vn/api/?depth=2", String.class);
-        System.out.println(map);
-    }
-
-
-    static String jsonViewer(String json) {
-        json = json.replace(",", ",\n").replace("{", "\n{\n").replace("}", "\n}");
-        return json;
-    }
-}
+//
+////        kong.unirest.HttpResponse<String> rp = Unirest.get("https://provinces.open-api.vn/api/?depth=2")
+////          .header("User-Agent", "Java 11 HttpClient Bot")
+////          .asString();
+////        System.out.println(jsonViewer(rp.getBody()));
+//
+//        RestTemplate re = new RestTemplate();
+//        String map = new String();
+//        map = re.getForObject("https://provinces.open-api.vn/api/?depth=2", String.class);
+//        System.out.println(map);
+//    }
+//
+//
+//    static String jsonViewer(String json) {
+//        json = json.replace(",", ",\n").replace("{", "\n{\n").replace("}", "\n}");
+//        return json;
+//    }
+//}

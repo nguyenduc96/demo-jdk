@@ -9,5 +9,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="konghq.unirest.java" level="project" />
     <orderEntry type="library" name="github.fangjinuo.audit.entityloader.resttemplate" level="project" />
+    <orderEntry type="library" name="apache.commons.lang3" level="project" />
+    <orderEntry type="library" name="alibaba.fastjson2" level="project" />
+    <orderEntry type="library" name="fasterxml.jackson.dataformat.cbor" level="project" />
+    <orderEntry type="library" name="fasterxml.jackson.core.annotations" level="project" />
   </component>
 </module>
